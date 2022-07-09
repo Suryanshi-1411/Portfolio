@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Page</title>
+  <title>Suryanshi Nigam | Front-End Developer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Unica+One%7CWork+Sans:300,600" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<body data-spy="scroll" data-target="#main-nav" data-offset="60">
+  
+  <nav id="main-nav" class="navbar navbar-default ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        <a class="navbar-brand scroll" href="#top"><span>Suryanshi Nigam</span></a>
+      </div>
+      
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a class="scroll" href="#top">Home <span class="sr-only">(current)</span></a></li>
+          <li><a class="scroll" href="#about">About Me</a></li>
+          <li><a class="scroll" href="#portfolio">Projects</a></li>
+          <li><button class="btn td-btn small outline pink" data-toggle="modal" data-target="#contactModal">Contact</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <header id="top" class="jumbotron">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+        </div>
+        <div class="col-xs-12">
+          <h1 class="title">Hello! My name is Suryanshi Nigam.</h1>
+          <h3>I am a Web Developer.</h3>
+          <p>Nice to meet you.</p>
+          <a class="btn td-btn outline green scroll mt-30" href="#content" title="Learn more about me!"><span class="glyphicon glyphicon-triangle-bottom"></span> Learn more</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div id="content" class="container-fluid text-center">
+   
+    <section id="about" class="row bg-white bg-shadow">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="mb-30">About Me</h1>
+        </div>
+      </div>
+      <div class="row mb-30">
+        <div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-2">
+          <img class="img-responsive center-block profile mb-30" src="image1.jpg" alt="Suryanshi Profile Photo">
+        </div>
+        <div class="col-sm-8 col-sm-offset-2 col-md-7 col-md-offset-0 col-lg-6 text-left">
+          <h4>Hello there! I'm a front-end developer and a Programmer.</h4>
+          <p>Currently, I am pursing my Bachelor's Degree in Computer Science and Engneering from Ujjain Engneering College,Ujjain.  <a class="scroll" href="#follow-me">follow me!</a> :)</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+        <hr class="dashed">
+          <h2 class="mb-60">Skills</h2>
+        </div>
+        <div class="col-sm-3 col-lg-2 col-lg-offset-2">
+          <img class="img-responsive center-block icon" src="git.png" alt="git">
+          <p>Git</p>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+          <img class="img-responsive center-block icon" src="Html.svg" alt="Html">
+          <p>HTML</p>
+        </div>
+        <div class="col-sm-3 col-lg-2">
+          <img class="img-responsive center-block icon" src="CSS.svg" alt="css">
+          <p>CSS3</p>
+        </div>
+        <div class="col-sm-3 col-lg-2 mb-30">
+          <img class="img-responsive center-block icon" src="js.svg" alt="JavaScript">
+          <p>Javascript</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <a href="resume.pdf" target="_blank"> <button class="btn td-btn outline green mt-30" >View my Resume</button></a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="portfolio" class="row bg-star-y">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="mb-60">Projects</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div id="projects" class="carousel slide col-xs-12" data-ride="carousel" data-interval="false">
+          <div class="row">
+            <!-- Carousel Prev Button -->
+            <div class="col-xs-1">
+              <a class="left carousel-control" href="#projects" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="col-xs-10">
+              <div class="carousel-inner " role="listbox">
+                <div class="item active">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30" src="quiz.png" alt="Quiz app">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3>Quiz App</h3>
+                      <h4>Skills Used: Html, CSS3, JavaScript</h4>
+                      <a href="#"><button class="btn td-btn small outline green" >View</button></a>
+                    </div>
+                  </div>
+                </div><!-- /.item -->
+                <div class="item">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30" src="cal.PNG" alt="Calculator">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card ">
+                      <h3>Calculator</h3>
+                      <h4>Skills Used: Html, CSS3, ReactJS</h4>
+                      <a href="https://github.com/Suryanshi-1411/task-3-calculator" target="_blank"><button class="btn td-btn small outline green" >View</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- /.carousel-inner -->
+            </div>
+            <div class="col-xs-1">
+              <!-- Carousel Next Button -->
+              <a class="right carousel-control" href="#projects" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div><!-- / Next Btn -->
+            <div class="col-xs-12">
+              <!-- Indicators -->
+              <ol class="carousel-indicators mt-30">
+                <li data-target="#projects" data-slide-to="0" class="active"></li>
+                <li data-target="#projects" data-slide-to="1"></li>
+              </ol>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /#projects -->
+      </div><!-- /.row -->
+    </section>
+    <!-- Contact Me Section -->
+    <section class="row bg-pink bg-shadow">
+      <div class="col-xs-12">
+        <h1 class="mb-30">--Contact me--</h1>
+        <button class="btn btn-default td-btn outline white" data-toggle="modal" data-target="#contactModal">Send me a message!</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="row text-center bg-honeycomb">
+      <div class="col-xs-12">
+        
+          <h3>Follow me!</h3>
+          <a class="social" href="https://www.linkedin.com/in/suryanshi-nigam-140190215/" target="_blank" title="LinkedIn">
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+          <a class="social" href="https://www.instagram.com/suryanshi_nigam/" target="_blank" title="Instagram">
+            <i class="fa fa-instagram fa-2x"></i>
+          </a>
+          <a class="social" href="https://github.com/Suryanshi-1411/" target="_blank" title="Github">
+            <i class="fa fa-github fa-2x"></i>
+          </a>
+       
+        <hr class="dashed">
+        <h2>&ndash; Thanks for visiting! &ndash;</h2>
+        <small class="gray">Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Suryanshi Nigam &mdash; All Rights Reserved &mdash;</small>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactTitle">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-pink">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h3 class="modal-title" id="contactTitle">Contact Me</h3>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <form class="mb-15">
+            <div class="form-group">
+              <label class="sr-only" for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="message">Message</label>
+              <textarea class="form-control" id="message" rows="6" placeholder="Your message here..." required></textarea>
+            </div>
+            <small>*All fields are required</small>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> I'm a robot!
+              </label>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <button type="button" class="btn td-btn outline small white" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn td-btn outline small white">Send Message</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</body>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
