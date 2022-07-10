@@ -48,7 +48,7 @@ hr {
   margin: 30px 0 60px;
 }
 
-/* Navbar Styles*/
+
 .navbar-default {
   background-color: transparent;
   border: none;
@@ -112,7 +112,7 @@ hr {
   color: #4029a5;
   text-decoration: none;
 }
-/* Fixed Menu */
+
 .menu-fixed {
   background-color: #fffefd;
   background-color: rgba(255,254,253,0.97);
@@ -137,7 +137,7 @@ hr {
   opacity: 1;
 }
 
-/*  Jumbotron Styles*/
+
 .jumbotron {
   background: linear-gradient(rgba(255,254,253,0.7), rgba(255,254,253,0.7)), url("image2.jpg") center center fixed;
   background-size: cover;
@@ -168,12 +168,12 @@ hr {
   margin: 0;
 }
 
-/* Containers*/
+
 section.row,
 footer.row {
   padding: 30px 30px 60px;
 }
-/*** Modal ***/
+
 .modal-dialog.wide {
   width: 90%;
 }
@@ -205,7 +205,7 @@ footer.row {
 .modal-footer {
   padding: 30px 0 15px;
 }
-/* Fade Up Animation */
+
 .modal.fade .modal-dialog {
   -webkit-transform: translate3d(0, 100vh, 0);
   -ms-transform: translate3d(0, 100vh, 0);
@@ -224,7 +224,7 @@ footer.row {
     opacity: 0.9;
 }
 
-/* Buttons */
+
 .td-btn {
   padding: 12px 36px;
   text-transform: uppercase;
@@ -266,7 +266,7 @@ footer.row {
   background-color: #fffefd;
   color: #df3778;
 }
-/* Navbar Contact Button */
+
 .navbar-nav .outline.pink {
   border-color: #df3778;
   color: #df3778;
@@ -294,7 +294,7 @@ footer.row {
   filter: brightness(10);
 }
 
-/* Social Icons */
+
 .social {
   display: inline-block;
   transition: box-shadow 0.2s ease-in-out,
@@ -464,22 +464,22 @@ footer.row {
 .dashed {
   border-top: 2px dashed #4029a5 ;
 }
-/*** Contact Form ***/
+
 .checkbox {
   display: none;
 }
 
-/*Media Queries */
+
 @media (max-width: 1199px) {
  
   .md-center { text-align: center; }
 }
 @media (max-width: 991px) {
-  /* Resume */
+  
   .year {
     text-align: left;
   }
-  /*** Portfolio ***/
+  
   #projects .carousel-control {
     margin-top: 300%;
   }
@@ -489,16 +489,16 @@ footer.row {
   }
 }
 @media (max-width: 767px) {
-  /* Page Elements */
+ 
   section .row [class^="col-sm-"] + [class^="col-sm-"],
   section .row [class*=" col-sm-"] + [class*=" col-sm-"] {
     margin-top: 30px;
   }
-  /*Jumbotron */
+ 
   .jumbotron .logo {
     max-width: 120px;
   }
-  /* Mobile Nav */
+ 
   .navbar-toggle {
     height: 36px;
     margin-bottom: 22px;
@@ -530,7 +530,7 @@ footer.row {
     margin: 15px auto 30px;
     max-width: 150px;
   }
-  /* Portfolio */
+ 
   #projects .carousel-control {
     margin-top: 300%;
   }
