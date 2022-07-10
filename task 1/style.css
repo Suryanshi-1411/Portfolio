@@ -48,9 +48,7 @@ hr {
   margin: 30px 0 60px;
 }
 
-/* =====================
-  Navbar Styles
-===================== */
+/* Navbar Styles*/
 .navbar-default {
   background-color: transparent;
   border: none;
@@ -139,9 +137,7 @@ hr {
   opacity: 1;
 }
 
-/* =====================
-  Jumbotron Styles
-===================== */
+/*  Jumbotron Styles*/
 .jumbotron {
   background: linear-gradient(rgba(255,254,253,0.7), rgba(255,254,253,0.7)), url("image2.jpg") center center fixed;
   background-size: cover;
@@ -172,9 +168,7 @@ hr {
   margin: 0;
 }
 
-/* =====================
-  Containers
-===================== */
+/* Containers*/
 section.row,
 footer.row {
   padding: 30px 30px 60px;
@@ -230,9 +224,7 @@ footer.row {
     opacity: 0.9;
 }
 
-/* =====================
-  Buttons
-===================== */
+/* Buttons */
 .td-btn {
   padding: 12px 36px;
   text-transform: uppercase;
@@ -319,9 +311,7 @@ footer.row {
   max-width: 100%;
 }
 
-/* =====================
-  Icons and Images
-===================== */
+
 .icon {
   max-height: 130px;
 }
@@ -341,9 +331,7 @@ footer.row {
 }
 
 
-/* =====================
-  Resume Modal
-===================== */
+
 #resumeModal h4 {
   margin-top: 0;
 }
@@ -351,9 +339,7 @@ footer.row {
   text-align: right;
 }
 
-/* =====================
-  Portfolio Projects
-===================== */
+
 #projects .carousel-control {
   background: none;
   color: #fffefd;
@@ -412,7 +398,7 @@ footer.row {
   height: 17px;
   width: 17px;
 }
-/*** Project Modals ***/
+
 .hero {
   margin: 30px auto;
   max-width: 900px;
@@ -423,14 +409,12 @@ footer.row {
     border-radius: 0;
     font-weight: normal;
 }
-/* To override button alignment in modals */
+
 .center {
   text-align: center;
 }
 
-/* =====================
-  Other Styles
-===================== */
+
 .mb-0 {
   margin-bottom: 0;
 }
@@ -485,15 +469,13 @@ footer.row {
   display: none;
 }
 
-/* =====================
-  Media Queries
-===================== */
+/*Media Queries */
 @media (max-width: 1199px) {
-  /* Center class for medium screens */
+ 
   .md-center { text-align: center; }
 }
 @media (max-width: 991px) {
-  /*** Resume ***/
+  /* Resume */
   .year {
     text-align: left;
   }
@@ -507,16 +489,16 @@ footer.row {
   }
 }
 @media (max-width: 767px) {
-  /*** Page Elements ***/
+  /* Page Elements */
   section .row [class^="col-sm-"] + [class^="col-sm-"],
   section .row [class*=" col-sm-"] + [class*=" col-sm-"] {
     margin-top: 30px;
   }
-  /*** Jumbotron ***/
+  /*Jumbotron */
   .jumbotron .logo {
     max-width: 120px;
   }
-  /*** Mobile Nav ***/
+  /* Mobile Nav */
   .navbar-toggle {
     height: 36px;
     margin-bottom: 22px;
@@ -548,7 +530,7 @@ footer.row {
     margin: 15px auto 30px;
     max-width: 150px;
   }
-  /*** Portfolio ***/
+  /* Portfolio */
   #projects .carousel-control {
     margin-top: 300%;
   }
